@@ -1,0 +1,12 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f1117; --s1: #1a1d27; --s2: #21253a; --s3: #2a2f47;
+  --acc: #4f8ef7; --grn: #2ecc71; --red: #e74c3c; --org: #f39c12; --pur: #7c6af7;
+  --t1: #e8eaf6; --t2: #8892b0; --t3: #3a4260;
+  --bd: rgba(255,255,255,0.07); --bd2: rgba(255,255,255,0.13);
+}
+body { font-family: 'Cairo', sans-serif; background: var(--bg); color: var(--t1); direction: rtl; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: var(--s3); border-radius: 4px; }
+input, select, button { font-family: 'Cairo', sans-serif; }
+input[type=number]::-webkit-inner-spin-button { opacity: 0.5; }
